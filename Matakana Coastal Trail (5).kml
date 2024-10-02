@@ -5,7 +5,7 @@
     <Style id="line-0288D1-2744-nodesc-normal">
       <LineStyle>
         <color>ffd18802</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -14,7 +14,7 @@
     <Style id="line-0288D1-2744-nodesc-highlight">
       <LineStyle>
         <color>ffd18802</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -30,10 +30,38 @@
         <styleUrl>#line-0288D1-2744-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="line-0F9D58-2938-nodesc-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0F9D58-2938-nodesc-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-2938-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-2938-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-2938-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="line-F57C00-2356-nodesc-normal">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -42,7 +70,7 @@
     <Style id="line-F57C00-2356-nodesc-highlight">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -61,7 +89,7 @@
     <Style id="line-F57C00-2744-nodesc-normal">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -70,7 +98,7 @@
     <Style id="line-F57C00-2744-nodesc-highlight">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -89,7 +117,7 @@
     <Style id="line-F57C00-2938-nodesc-normal">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -98,7 +126,7 @@
     <Style id="line-F57C00-2938-nodesc-highlight">
       <LineStyle>
         <color>ff007cf5</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -117,7 +145,7 @@
     <Style id="line-FF5252-2938-nodesc-normal">
       <LineStyle>
         <color>ff5252ff</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -126,7 +154,7 @@
     <Style id="line-FF5252-2938-nodesc-highlight">
       <LineStyle>
         <color>ff5252ff</color>
-        <width>4</width>
+        <width>3</width>
       </LineStyle>
       <BalloonStyle>
         <text><![CDATA[<h3>$[name]</h3>]]></text>
@@ -623,10 +651,6 @@
           174.7553143,-36.3485203,0
           174.7530827,-36.3459625,0
           174.7534261,-36.3326879,0
-          174.7488346,-36.3350784,0
-          174.7445431,-36.3375675,0
-          174.7387963,-36.341486,0
-          174.73517,-36.344044,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -658,6 +682,21 @@
           174.73517,-36.344044,0
           174.7344082,-36.3429551,0
           174.7332027,-36.341975,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Point Wells to Country Park</name>
+      <styleUrl>#line-0F9D58-2938-nodesc</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          174.7534261,-36.3326879,0
+          174.749377,-36.3347907,0
+          174.7454502,-36.3367959,0
+          174.7411587,-36.3398034,0
+          174.7379186,-36.3421195,0
+          174.73517,-36.344044,0
         </coordinates>
       </LineString>
     </Placemark>
